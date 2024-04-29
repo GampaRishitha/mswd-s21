@@ -1,0 +1,126 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 20vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 100px;
+    border-radius: 10px;
+    padding:5px;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  color: rgb(223, 217, 217);
+  padding: 5px;
+}
+
+.App-by {
+  background-color: #f9f4f5;
+  min-height: 80vh;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  color: rgb(21, 5, 5);
+}
+
+.login-page {
+  display: block;
+  border: 1px solid rgb(53, 109, 200);
+  border-width: 30px;
+  border-radius: 5px;
+  padding: 20px;
+  width: 250px;
+  height: 350px;
+  background-color: #f1efef;
+  float:right;
+}
+.login-parent{
+  padding: 25px;
+  display: block;
+  align-items:center;
+  justify-content: center;
+}
+.logincontent{
+  background: url('images/bgpic2.jpeg');
+  height: 520px;
+  width:1550px;
+  background-size: 100% 100%;
+}
+.update-parent{
+  padding: 20px;
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+.update-page {
+  display: block;
+  border: 1px solid rgb(20, 20, 20);
+  border-width: 25px;
+  padding: 20px;
+  width: 250px;
+  height: 400px;
+  background-color: #ddbf26;
+}
+.survey-content{
+  display: block;
+  border: 1px solid rgb(20, 20, 20);
+  border-width: 15px;
+  border-radius: 10px;
+  max-width: 700px;
+  margin: 0 auto; 
+}
+.select {
+  width: 200px; /* Adjust the width as needed */
+  height: 30px; /* Adjust the height as needed */
+  font-size: 16px; /* Adjust the font size as needed */
+  padding: 8px; /* Adjust the padding as needed */
+}
+.feedback-parent{
+  padding: 20px;
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+.feedback-page {
+  display: block;
+  border: 1px solid rgb(3, 21, 14);
+  border-width: 25px;
+  padding: 20px;
+  width: 250px;
+  height: 300px;
+  background-color: #7aa7d3;
+}
+.faqs-content{
+  border: 1px solid rgb(11, 11, 11);
+  border-width: 10px;
+  border-radius: 10px;
+}
+
+.App-link {
+  color: #0b0e0e;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+
